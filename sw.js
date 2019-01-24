@@ -66,5 +66,5 @@ self.addEventListener('fetch', e => {
     });
 
 
-    e.respondWith(respuesta);
+    e.waitUntil(respuesta);
 });
